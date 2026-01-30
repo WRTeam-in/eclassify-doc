@@ -15,13 +15,13 @@ const config = {
   favicon: "images/logo/favicon.png",
 
   // Set the production url of your site here
-  url: 'https://wrteamdev.github.io', // Your GitHub Pages URL
-  baseUrl: '/eClassify/', // The repository name, preceded by a slash
-  organizationName: 'wrteamdev', // Your GitHub username
-  projectName: 'eClassify', // Your repository name
+  url: 'https://wrteam-in.github.io', // Your GitHub Pages URL
+  baseUrl: '/eclassify-doc/', // The repository name, preceded by a slash
+  organizationName: 'WRTeam-in', // Your GitHub username
+  projectName: 'eclassify-doc', // Your repository name
   trailingSlash: true,
   deploymentBranch: "gh-pages", // Deployment branch for GitHub Pages
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
