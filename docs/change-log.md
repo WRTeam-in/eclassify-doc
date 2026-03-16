@@ -10,16 +10,57 @@ Welcome to the eClassify ChangeLog! This section documents all the important cha
 
 | Product Version | Flutter Version | Kotlin Version | AGP Version | distributionUrl (Gradle) | JDK Version |
 |----------------|----------------|---------------|-------------|--------------------------|-------------|
+| 2.11.0         | 3.41.3         | 2.3.0        | 8.9.1       | 8.11.1                      | 22          |
 | 2.10.0          | 3.38.6         | 2.1.0        | 8.9.1       | 8.11.1                      | 22          |
 | 2.9.0          | 3.38.3         | 2.1.0        | 8.9.1       | 8.11.1                      | 22          |
 | 2.8.0          | 3.35.6         | 2.1.0        | 8.9.1       | 8.11.1                      | 22          |
 | 2.7.0          | 3.35.1         | 2.1.0        | 8.6.1       | 8.8                      | 22          |
-| 2.6.0          | 3.32.2         | 2.0.20        | 8.6.1       | 8.8                      | 22          |
-| 2.5.0          | 3.29.2         | 2.0.20        | 8.6.1       | 8.8                      | 22          |
 
 ## Version History
 
 <details open>
+<summary>Version 2.11.0 (Updated on 16 March 2026)</summary>
+
+#### New Features
+
+- Redesigned chat feature with new UI for easy access
+- Multi-message and full chat deletion
+- Redesigned subscription module with active plans screen and support for global and category-specific packages
+- Paytabs and DPO payment gateways support
+- 2Factor.in OTP provider support
+- Follow and unfollow functionality with dedicated followers and following screens
+- Custom Google AdSense ads configuration (Admin + Web)
+- Category bulk upload with multi-language translation support (Admin)
+- Custom field bulk upload with translation support (Admin)
+- Email notification templates configuration in Admin Settings
+- Multi-select ads approval functionality in Admin Panel
+
+#### Improvements
+
+- Centralized Material 3 theme and color system (App)
+- Redesigned seller profile screen with enhanced contact and rating details (App)
+- Redesigned onboarding screen (App)
+- Unread message badge on chat icon (App)
+- Enabled edge-to-edge display support (App)
+- Featured Category toggle from Admin Panel (Admin + Web)
+- Improved location filtering on "/Ads" page (Web)
+- URL language sync with fallback and HTML tag update (Web)
+- Admin panel sidebar redesigned with improved navigation (Admin)
+- Admin panel ads create and update UI enhancements (Admin)
+- Admin panel theme color customization option in Settings (Admin)
+- Added country code support when creating or updating items
+- Multi-language ads creation and update support in Admin Panel
+
+#### Bug Fixes
+
+- Item details page now displays the item's contact number instead of the seller's profile number
+
+#### Updates
+- Flutter App Compatibility with Flutter SDK version 3.41.3
+
+</details>
+
+<details>
 <summary>Version 2.10.0 (Updated on 23 January 2026)</summary>
 
 #### New Features
