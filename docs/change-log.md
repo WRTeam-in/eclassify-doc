@@ -10,15 +10,63 @@ Welcome to the eClassify ChangeLog! This section documents all the important cha
 
 | Product Version | Flutter Version | Kotlin Version | AGP Version | distributionUrl (Gradle) | JDK Version |
 |----------------|----------------|---------------|-------------|--------------------------|-------------|
+| 2.12.0         | 3.41.8         | 2.3.0        | 8.9.1       | 8.11.1                      | 22          |
 | 2.11.0         | 3.41.3         | 2.3.0        | 8.9.1       | 8.11.1                      | 22          |
 | 2.10.0          | 3.38.6         | 2.1.0        | 8.9.1       | 8.11.1                      | 22          |
 | 2.9.0          | 3.38.3         | 2.1.0        | 8.9.1       | 8.11.1                      | 22          |
 | 2.8.0          | 3.35.6         | 2.1.0        | 8.9.1       | 8.11.1                      | 22          |
-| 2.7.0          | 3.35.1         | 2.1.0        | 8.6.1       | 8.8                      | 22          |
 
 ## Version History
 
 <details open>
+<summary>Version 2.12.0 (Updated on 7 May 2026)</summary>
+
+#### New Features
+
+- **Gemini AI Integration:** Added AI-powered item description and SEO metadata generation
+- **Configurable Home Screen:** Added modular home sections with enable/disable configuration support
+- **SEO Management:** Added item-level meta tag fields with multilingual SEO support
+- **Chat Search:** Added support for searching conversations within the chat list
+- **Payment Receipts:** Added functionality to view and download subscription payment receipts
+- **Multilingual SEO Enhancements:** Added schema support, canonical URLs, hreflang integration, localized sitemap generation, and advanced meta configuration (Web)
+- **Language Routing Migration:** Migrated from query-based URLs to route-based multilingual routing for improved SEO and cleaner URLs (Web)
+- **Cookie Consent Integration:** Added consent-based Firebase Analytics initialization with cookie consent handling (Web)
+- **SEO Fields Management:** Added SEO-related fields support for categories, ads, and blogs (Admin)
+- **Admin Authentication:** Added OTP-based reset password functionality for admins (Admin)
+- **Chat Management:** Added support for blocking/unblocking chats, deleting chats/messages, and managing audio recordings (Admin)
+
+#### Improvements
+
+- **Ad Image:** Unified main and additional image uploads into a single input field
+- **Chat Delete:** Added support for deleting multiple chats
+- **Modular Architecture:** Refactored Home screen and Categories into modular and configurable components (App)
+- **Performance Optimization:** Optimized UI rendering to reduce scrolling lag and improve responsiveness on the Home and Ad Details screens (App)
+- **Image Optimization:** Improved rendering performance and optimized asset loading across the application (App)
+- **Asset Organization:** Reorganized asset folders for improved readability and easier icon management (App)
+- **Mobile Responsiveness:** Enhanced responsive layouts for Ad Listing, Edit Listing, and Job Application pages (Web)
+- **Item Detail Preview:** Improved item detail preview UI in Admin Panel (Admin)
+- **Admin UI & RTL:** Enhanced Admin Panel UI and RTL layout support (Admin)
+- **Transaction Handling:** Improved pending transaction cron handling and processing reliability (Admin)
+
+#### Breaking Changes
+
+- **Chat v2:** Complete architectural overhaul for improved maintainability, scalability, and flexibility (App)
+- **Category v2:** Rebuilt category architecture with hierarchical navigation and caching support for better scalability and code organization (App)
+- **Filtering System:** Redesigned filtering architecture for improved extensibility and maintainability (App)
+- **Profile Screen:** Redesigned profile architecture for improved extensibility and maintainability (App)
+
+#### Updates
+
+- Upgraded web support to Next.js 16+ and Tailwind CSS 4+
+- Upgraded Flutter support to 3.41.8
+
+#### Bug Fixes
+
+- General bug fixes, optimizations, and performance improvements
+
+</details>
+
+<details>
 <summary>Version 2.11.0 (Updated on 16 March 2026)</summary>
 
 #### New Features
