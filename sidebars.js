@@ -37,6 +37,7 @@ const sidebars = {
         "admin-panel-config/twilio-setup",
         "admin-panel-config/cron-job-setup",
         "admin-panel-config/gemini-ai-setup",
+        "admin-panel-config/admin-system-update",
       ],
     },
     {
