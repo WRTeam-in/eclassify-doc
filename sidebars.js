@@ -75,6 +75,7 @@ const sidebars = {
         "mobile-app/run-app",
         "mobile-app/generate-release-version",
         "mobile-app/app-deployment",
+        "mobile-app/how-to-update",
       ],
     },
     {
