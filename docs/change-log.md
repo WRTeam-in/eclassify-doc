@@ -10,15 +10,41 @@ Welcome to the eClassify ChangeLog! This section documents all the important cha
 
 | Product Version | Flutter Version | Kotlin Version | AGP Version | distributionUrl (Gradle) | JDK Version |
 |----------------|----------------|---------------|-------------|--------------------------|-------------|
-| 2.12.0         | 3.41.8         | 2.3.0        | 8.9.1       | 8.11.1                      | 22          |
-| 2.11.0         | 3.41.3         | 2.3.0        | 8.9.1       | 8.11.1                      | 22          |
-| 2.10.0          | 3.38.6         | 2.1.0        | 8.9.1       | 8.11.1                      | 22          |
-| 2.9.0          | 3.38.3         | 2.1.0        | 8.9.1       | 8.11.1                      | 22          |
-| 2.8.0          | 3.35.6         | 2.1.0        | 8.9.1       | 8.11.1                      | 22          |
+| 2.13.0         | 3.44.0         | 2.3.21        | 8.11.1      | 9.5.1                    | 22          |
+| 2.12.0         | 3.41.8         | 2.3.0         | 8.9.1       | 8.11.1                   | 22          |
+| 2.11.0         | 3.41.3         | 2.3.0         | 8.9.1       | 8.11.1                   | 22          |
+| 2.10.0         | 3.38.6         | 2.1.0         | 8.9.1       | 8.11.1                   | 22          |
+| 2.9.0          | 3.38.3         | 2.1.0         | 8.9.1       | 8.11.1                   | 22          |
 
 ## Version History
 
 <details open>
+<summary>Version 2.13.0 (Updated on 9 June 2026)</summary>
+
+#### New Features
+
+- **Dynamic Banner Ads:** Added dynamic banner ads across home screen, item detail and listing pages
+
+#### Improvements
+
+- **Ads Sorting Preferences:** Admin-controlled default Ads sorting preferences
+- **Language Routing URL:** Removed language prefixes from default language URLs and updated sitemap indexing (Web)
+- **Sitemap Generation:** Enhanced sitemap generation with sitemap indexes and automatic splitting of large URL datasets (Web)
+- **Navigation Enhancements:** Enhanced category and featured listing navigation with SEO-friendly nested and slug-based URLs (Web)
+- **Admin Dashboard:** Redesigned admin dashboard with improved analytics and statistics for better insights (Admin)
+- **SPM & UIScene Support:** Added support for Swift Package Manager (SPM) and UIScene lifecycle APIs to align with Flutter 3.44 standards (App)
+
+#### Updates
+
+- Upgraded Flutter support to 3.44.0
+
+#### Bug Fixes
+
+- General bug fixes, performance improvements, and optimizations
+
+</details>
+
+<details>
 <summary>Version 2.12.0 (Updated on 7 May 2026)</summary>
 
 #### New Features
