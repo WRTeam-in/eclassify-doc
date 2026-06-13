@@ -18,6 +18,8 @@ Update your eClassify Admin Panel from one version to the next using the built-i
 
 ## Important Note
 
+Starting from version `2.13.1`, the CodeCanyon package includes the update scripts for the **last 3 versions** only.
+
 You must update your admin system **version by version**, sequentially. For example, if you are currently on `2.10.0`, update to `2.10.1` first, then to `2.11.0`, and so on, until you reach the latest version.
 
 :::tip Recommended
