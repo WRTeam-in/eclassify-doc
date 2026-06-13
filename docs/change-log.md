@@ -19,6 +19,23 @@ Welcome to the eClassify ChangeLog! This section documents all the important cha
 ## Version History
 
 <details open>
+<summary>Version 2.13.1 (Updated on 13 June 2026)</summary>
+
+#### Improvements
+
+- Improved Dummy Data module flow (Admin)
+
+#### Bug Fixes
+
+- Item data sorting now matches home screen and item list data sorting
+- Fixed landing page header links (Web)
+- Resolved Internal Server Error on VPS deployments (Web)
+- Corrected default ad sorting behavior (Web)
+- Category UI and data sequence consistency across Admin Panel (Admin)
+
+</details>
+
+<details>
 <summary>Version 2.13.0 (Updated on 9 June 2026)</summary>
 
 #### New Features
