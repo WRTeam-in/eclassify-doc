@@ -10,15 +10,52 @@ Welcome to the eClassify ChangeLog! This section documents all the important cha
 
 | Product Version | Flutter Version | Kotlin Version | AGP Version | distributionUrl (Gradle) | JDK Version |
 |----------------|----------------|---------------|-------------|--------------------------|-------------|
+| 2.14.0         | 3.44.5         | 2.3.21        | 8.11.1      | 9.5.1                    | 22          |
 | 2.13.0         | 3.44.0         | 2.3.21        | 8.11.1      | 9.5.1                    | 22          |
 | 2.12.0         | 3.41.8         | 2.3.0         | 8.9.1       | 8.11.1                   | 22          |
 | 2.11.0         | 3.41.3         | 2.3.0         | 8.9.1       | 8.11.1                   | 22          |
 | 2.10.0         | 3.38.6         | 2.1.0         | 8.9.1       | 8.11.1                   | 22          |
-| 2.9.0          | 3.38.3         | 2.1.0         | 8.9.1       | 8.11.1                   | 22          |
 
 ## Version History
 
 <details open>
+<summary>Version 2.14.0 (Updated on 17 July 2026)</summary>
+
+#### New Features
+
+- Interactive vertical video ads (Short-Videos) feed with custom playback, likes, favorites & seller interactions.
+- Built-in video uploader with trimming tools & video link support.
+- Discontinue subscription packages (Admin).
+- Auto-translation via Gemini AI for ad details (Admin).
+- New item selection option for Featured Section (Admin).
+- Redesigned multi-step ad posting for simpler listing. (App and Web)
+- Rich link previews in chat conversations (App).
+
+#### Improvements
+
+- Switched to unified Phosphor icon library. (App and Web)
+- Total Revenue info in package list (Admin).
+- View active user subscriptions per package (Admin).
+- Refactored dummy data import (Admin).
+- Blog upgrades: category navigation, multilingual SEO & reader feedback (Web).
+- Unified, modern delete confirmation dialogs (Web, App).
+- Mandatory registration consent & updated Contact Us privacy messaging (Web, App).
+- Optimized background video uploading (App).
+- Persistent disk caching for faster startup & offline access (App).
+- Revamped blog: categories, related posts, tags & reader feedback (App).
+
+#### Updates
+
+- Flutter App Compatibility with Flutter SDK version 3.44.5
+
+#### Bug Fixes
+
+- Improved phone validation at sign-up & profile update (App).
+- Minor bug fixes, UI refinements & stability improvements.
+
+</details>
+
+<details>
 <summary>Version 2.13.1 (Updated on 13 June 2026)</summary>
 
 #### Improvements
