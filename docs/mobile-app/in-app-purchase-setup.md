@@ -55,7 +55,7 @@ Don't forget to enable paid app agreements in your Apple Developer account. With
 
 ## Additional Resources
 
-For more detailed information about creating and setting up in-app purchases, please refer to our [Comprehensive IAP Guide](https://wrteam-in.github.io/common_app_doc/GeneralSettings/iap).
+For more detailed information about creating and setting up in-app purchases, please refer to our [Comprehensive IAP Guide](https://marketplace.wrteam.in/docs/flutter-common-doc/GeneralSettings/iap).
 
 ## Testing
 

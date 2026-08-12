@@ -4,7 +4,7 @@ sidebar_position: 24
 
 # AdMob Setup
 
-For a comprehensive guide, check out [Google AdMob Setup Guide](https://wrteam-in.github.io/common_app_doc/GeneralSettings/advertisement/google-admob)
+For a comprehensive guide, check out [Google AdMob Setup Guide](https://marketplace.wrteam.in/docs/flutter-common-doc/GeneralSettings/advertisement/google-admob)
 
 1. Create Android and iOS apps in your [Google AdMob account](https://admob.google.com/home/) and note the App IDs.
 

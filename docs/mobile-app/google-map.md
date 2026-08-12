@@ -14,7 +14,7 @@ sidebar_position: 12
    - Paid Map API: uses Google Place API for accurate results
       - If selecting Paid Map API, add your Place API key
 
-2. For enabling billing and obtaining a Place API key, refer to our guide: [Billing & API Keys](https://wrteam-in.github.io/common_app_doc/GeneralSettings/firebase-billing)
+2. For enabling billing and obtaining a Place API key, refer to our guide: [Billing & API Keys](https://marketplace.wrteam.in/docs/flutter-common-doc/GeneralSettings/firebase-billing)
 
 3. Copy place API key from Google Cloud Console and paste it into admin panel settings as shown below:
 

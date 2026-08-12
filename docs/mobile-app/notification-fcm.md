@@ -4,7 +4,7 @@ sidebar_position: 10
 
 # Notifications Setup
 
-For detailed information about Firebase Cloud Messaging (FCM) setup and configuration, please refer to our [comprehensive guide](https://wrteam-in.github.io/common_app_doc/GeneralSettings/notifications).
+For detailed information about Firebase Cloud Messaging (FCM) setup and configuration, please refer to our [comprehensive guide](https://marketplace.wrteam.in/docs/flutter-common-doc/GeneralSettings/notifications).
 
 1. Go to your firebase project in project settings -> general. Copy your project id from there as below image.
 
@@ -19,6 +19,6 @@ For detailed information about Firebase Cloud Messaging (FCM) setup and configur
    ![FCM 3](/images/app/fcm4.png)
 
   :::important
-  Don't forget to add SHA1 and SHA256 keys in Firebase. For adding SHA1 and SHA256 keys in Firebase, please refer to our [comprehensive guide](https://wrteam-in.github.io/common_app_doc/GeneralSettings/firebase#-add-sha1--sha256-keys-in-firebase). This step is crucial for enabling notifications in your Android app.
+  Don't forget to add SHA1 and SHA256 keys in Firebase. For adding SHA1 and SHA256 keys in Firebase, please refer to our [comprehensive guide](https://marketplace.wrteam.in/docs/flutter-common-doc/GeneralSettings/firebase#-add-sha1--sha256-keys-in-firebase). This step is crucial for enabling notifications in your Android app.
   :::
 
