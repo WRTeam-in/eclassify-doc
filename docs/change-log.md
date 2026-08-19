@@ -10,15 +10,51 @@ Welcome to the eClassify ChangeLog! This section documents all the important cha
 
 | Product Version | Flutter Version | Kotlin Version | AGP Version | distributionUrl (Gradle) | JDK Version |
 |----------------|----------------|---------------|-------------|--------------------------|-------------|
+| 3.0.0          | 3.44.5         | 2.3.21        | 8.11.1      | 9.5.1                    | 22          |
 | 2.14.0         | 3.44.5         | 2.3.21        | 8.11.1      | 9.5.1                    | 22          |
 | 2.13.0         | 3.44.0         | 2.3.21        | 8.11.1      | 9.5.1                    | 22          |
 | 2.12.0         | 3.41.8         | 2.3.0         | 8.9.1       | 8.11.1                   | 22          |
 | 2.11.0         | 3.41.3         | 2.3.0         | 8.9.1       | 8.11.1                   | 22          |
-| 2.10.0         | 3.38.6         | 2.1.0         | 8.9.1       | 8.11.1                   | 22          |
 
 ## Version History
 
 <details open>
+<summary>Version 3.0.0 (Updated on 19 August 2026)</summary>
+
+#### New Features
+
+- Added deep linking support for Reels & Blogs. (App + Web)
+- Implemented SSR across public pages for enhanced SEO. (Web)
+- Rebuilt Authentication module following modern clean code standards. (App)
+- Added centralized deep linking with unified share handling. (App)
+- Added native form autofill for Auth and Profile screens. (App)
+
+#### Improvements
+
+- Refactored Chat module. (Web)
+- Refactored Ad Listing & Edit Listing modules. (Web)
+- Reorganized structure into feature-first architecture. (Web)
+- Added ETag API caching for faster page loads. (Web)
+- Added automatic image optimization. (Web)
+- Redesigned Settings & Payment Gateway UI with global search. (Admin)
+- Restructured app codebase into feature-first architecture. (App)
+- Unified item data models across listings, cards, and details. (App)
+- Migrated theming to Material ColorScheme tokens. (App)
+- Optimized scrolling with server-resized images & list recycling. (App)
+- Migrated to unified payment package; removed legacy gateway code. (App)
+- Redesigned bottom navigation bar with integrated FAB. (App)
+
+#### Updates
+
+- Upgraded backend framework to Laravel 12.
+
+#### Bug Fixes
+
+- Minor bug fixes and Improvements.
+
+</details>
+
+<details>
 <summary>Version 2.14.0 (Updated on 17 July 2026)</summary>
 
 #### New Features
