@@ -32,7 +32,7 @@ After every version update, verify that the system is working properly. Then tak
 
 Some versions require **additional manual steps** before running the System Update. Expand the relevant version below for instructions.
 
-<details>
+<details open>
 <summary><strong>v3.0.0 — Important Steps Before Updating</strong></summary>
 
 If you are updating to version `3.0.0`, there are **additional manual steps** required before running the system update. Follow the steps below carefully.
