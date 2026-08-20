@@ -183,3 +183,163 @@ html[data-theme="light"] .cardIcon {
   font-weight: 700;
   margin-bottom: 1rem;
 }
+
+/* Admin Update Warning Banner on Homepage */
+.warningSection {
+  padding: 2.5rem 0 0.5rem 0;
+  width: 100%;
+}
+
+.warningCard {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 179, 0, 0.12) 0%,
+    rgba(255, 152, 0, 0.06) 100%
+  );
+  border: 1.5px solid rgba(255, 179, 0, 0.45);
+  border-radius: 16px;
+  padding: 1.75rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  box-shadow: 0 8px 24px rgba(255, 179, 0, 0.12);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.warningCard::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 6px;
+  background: linear-gradient(180deg, #ffb300, #ff8f00);
+}
+
+.warningCard:hover {
+  border-color: rgba(255, 179, 0, 0.75);
+  box-shadow: 0 12px 32px rgba(255, 179, 0, 0.22);
+  transform: translateY(-2px);
+}
+
+.warningCardLeft {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25rem;
+  flex: 1;
+}
+
+.warningIconBadge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  min-width: 52px;
+  border-radius: 12px;
+  background: rgba(255, 179, 0, 0.2);
+  color: #d97706;
+  border: 1px solid rgba(255, 179, 0, 0.4);
+}
+
+[data-theme="dark"] .warningIconBadge {
+  color: #fbbf24;
+  background: rgba(255, 179, 0, 0.18);
+  border-color: rgba(255, 179, 0, 0.35);
+}
+
+.warningContent {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.warningHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.warningBadge {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 0.2rem 0.6rem;
+  border-radius: 6px;
+  background: #f59e0b;
+  color: #000;
+}
+
+.warningTitle {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--ifm-color-emphasis-900);
+}
+
+.warningText {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.warningText strong {
+  color: var(--ifm-color-emphasis-900);
+}
+
+.warningCardRight {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+}
+
+.warningBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  padding: 0.7rem 1.4rem;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+  color: #fff !important;
+  border: none;
+  text-decoration: none !important;
+  box-shadow: 0 4px 12px rgba(245, 158, 11, 0.35);
+  transition: all 0.25s ease;
+  white-space: nowrap;
+}
+
+.warningBtn:hover {
+  background: linear-gradient(135deg, #d97706 0%, #b45309 100%);
+  box-shadow: 0 6px 18px rgba(245, 158, 11, 0.45);
+  transform: translateY(-2px);
+  color: #fff !important;
+}
+
+@media screen and (max-width: 768px) {
+  .warningCard {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 1.25rem;
+    gap: 1.25rem;
+  }
+
+  .warningCardLeft {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+
+  .warningBtn {
+    width: 100%;
+    justify-content: center;
+  }
+}
+

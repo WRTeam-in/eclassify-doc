@@ -60,6 +60,14 @@ const config = {
     ({
       // Replace with your project's social card
       image: "images/logo/favicon.png",
+      announcementBar: {
+        id: "admin_major_update_notice",
+        content:
+          '⚠️ <strong>Admin Major Update Notice:</strong> Please follow the <a href="/eclassify-doc/docs/admin-panel-config/admin-system-update/">Pre-Update Instructions</a> carefully before updating your Admin Panel.',
+        backgroundColor: "#e6a700",
+        textColor: "#000000",
+        isCloseable: true,
+      },
       navbar: {
         title: "eClassify",
         logo: {

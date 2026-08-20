@@ -211,6 +211,52 @@ function HomepageFeatures() {
   );
 }
 
+function AdminUpdateNotice() {
+  return (
+    <section className={styles.warningSection}>
+      <div className="container">
+        <div className={styles.warningCard}>
+          <div className={styles.warningCardLeft}>
+            <div className={styles.warningIconBadge}>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="28"
+                height="28"
+                fill="currentColor"
+              >
+                <path d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z" />
+              </svg>
+            </div>
+            <div className={styles.warningContent}>
+              <div className={styles.warningHeader}>
+                <span className={styles.warningBadge}>Important Notice</span>
+                <h3 className={styles.warningTitle}>
+                  Admin Panel Major Update Required Steps
+                </h3>
+              </div>
+              <p className={styles.warningText}>
+                Before updating your Admin Panel (e.g. <strong>v3.0.0+</strong>),
+                make sure to follow the mandatory pre-update instructions
+                including <strong>PHP 8.3+</strong> requirement and manual file
+                replacements.
+              </p>
+            </div>
+          </div>
+          <div className={styles.warningCardRight}>
+            <Link
+              className={styles.warningBtn}
+              to="/docs/admin-panel-config/admin-system-update#version-specific-pre-update-instructions"
+            >
+              Follow Update Guide &rarr;
+            </Link>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
 function SupportSection() {
   return (
     <section className={styles.support}>
@@ -242,6 +288,7 @@ export default function Home() {
     <Layout title={siteConfig.title} description={siteConfig.tagline}>
       <HomepageHeader />
       <main>
+        <AdminUpdateNotice />
         <HomepageFeatures />
         <SupportSection />
       </main>
