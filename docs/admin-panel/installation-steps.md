@@ -10,9 +10,9 @@ sidebar_position: 2
 
 ## 2. Server Requirements & Extensions
 
-If PHP version is lower than 8.1 or any extension is not installed then it will be highlighted using Red color. So you need to make sure that your server meets all requirements.
+If PHP version is lower than the requirement (PHP 8.2+ / PHP 8.3+ for v3.0.0+) or any extension is not installed, it will be highlighted in Red. Make sure that your server meets all requirements.
 
-**Note:** nd_pdo_mysql extension is also required
+**Important Note:** The **`exif`** extension and **`nd_pdo_mysql`** extension are required.
 
 ![Server Requirements](/images/admin/2.png)
 

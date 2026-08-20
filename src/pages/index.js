@@ -238,7 +238,7 @@ function AdminUpdateNotice() {
               <p className={styles.warningText}>
                 Before updating your Admin Panel (e.g. <strong>v3.0.0+</strong>),
                 make sure to follow the mandatory pre-update instructions
-                including <strong>PHP 8.3+</strong> requirement and manual file
+                including <strong>PHP 8.3+</strong>, the <strong>EXIF</strong> extension requirement, and manual file
                 replacements.
               </p>
             </div>

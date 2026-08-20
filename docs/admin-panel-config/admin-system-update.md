@@ -69,12 +69,15 @@ This step involves deleting files from your live server. Make sure you have a **
 3. **Extract the zip** you uploaded.
 4. Verify that all the contents of the zip have been **extracted properly**.
 
-:::warning PHP Version Requirement
-After uploading and extracting the files, make sure your server's **PHP version is 8.3 or above**. The `3.0.0` update requires PHP 8.3+. Proceeding with a lower PHP version may cause errors.
+:::warning PHP Version & Extension Requirement
+After uploading and extracting the files, make sure that:
+- Your server's **PHP version is 8.3 or above**.
+- The **`exif`** PHP extension is enabled in your server configuration (required for image processing and upload handling).
+
+Proceeding with a lower PHP version or without the `exif` extension will cause errors.
 :::
 
 #### Step 4 — Replace `config/app.php`
-
 
 Replace the contents of **`config/app.php`** on your hosted server with the contents of `config/app.php` from the **fresh installation** folder.
 
