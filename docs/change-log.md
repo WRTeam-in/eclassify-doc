@@ -10,15 +10,53 @@ Welcome to the eClassify ChangeLog! This section documents all the important cha
 
 | Product Version | Flutter Version | Kotlin Version | AGP Version | distributionUrl (Gradle) | JDK Version |
 |----------------|----------------|---------------|-------------|--------------------------|-------------|
+| 3.1.0         | 3.44.5         | 2.3.21        | 8.11.1      | 9.5.1                    | 22          |
 | 3.0.0          | 3.44.5         | 2.3.21        | 8.11.1      | 9.5.1                    | 22          |
 | 2.14.0         | 3.44.5         | 2.3.21        | 8.11.1      | 9.5.1                    | 22          |
 | 2.13.0         | 3.44.0         | 2.3.21        | 8.11.1      | 9.5.1                    | 22          |
 | 2.12.0         | 3.41.8         | 2.3.0         | 8.9.1       | 8.11.1                   | 22          |
-| 2.11.0         | 3.41.3         | 2.3.0         | 8.9.1       | 8.11.1                   | 22          |
 
 ## Version History
 
 <details open>
+<summary>Version 3.1.0 (Updated on 17 September 2026)</summary>
+
+#### New Features
+
+- Quick Replies in chat with category-wise & global presets, managed from Admin.
+- In-chat offer bar: buyers make & edit offers, sellers edit the current offer; offers appear as inline chat notices. (App, Web, Admin)
+- Real-time unread chat badges across header, Buying & Selling tabs, and chat lists. (Web)
+- Microsoft Clarity analytics, tied to cookie consent. (Web)
+- Device-aware Contact button with WhatsApp: Call & Message on mobile, Show Number on desktop. (Web)
+- OpenStreetMap support: free map API uses OpenStreetMap, paid API uses Google Maps. (App)
+- Maintenance mode with independent Web / Android / iOS toggles. (App, Admin)
+- Search suggestions with query history. (App)
+- Plugin Manager with install and enable/disable flow. (Admin)
+
+#### Improvements
+
+- Mandatory & optional app update flows, driven from Admin. (App)
+- Push notifications recover from expired tokens and clean up per device on logout & account deletion. (App, Web)
+- Redesigned home: pinned search & location bar, scroll-aware bottom navigation, consistent safe-area and item card sizing across devices. (App)
+- Payment Gateway settings redesigned with tightened API key exposure. (Admin)
+- Places, Currency and Category Tree modules refined; "Users" renamed to "Customers". (Admin)
+
+#### Updates
+
+- Android build configuration migrated from Groovy to Kotlin DSL. (App)
+
+#### Bug Fixes
+
+- Bug fixes and improvements.
+
+#### Add-ons (purchased separately)
+
+- Cashfree payment gateway
+- PayU India payment gateway
+
+</details>
+
+<details>
 <summary>Version 3.0.0 (Updated on 19 August 2026)</summary>
 
 #### New Features
