@@ -39,6 +39,7 @@ const sidebars = {
         "admin-panel-config/gemini-ai-setup",
         "admin-panel-config/google-maps-setup",
         "admin-panel-config/admin-system-update",
+        "admin-panel-config/addon-plugins",
       ],
     },
     {
