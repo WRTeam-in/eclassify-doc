@@ -79,7 +79,8 @@ Proceeding with a lower PHP version or without the `exif` extension will cause e
 
 #### Step 4 — Replace `config/app.php`
 
-Replace the contents of **`config/app.php`** on your hosted server with the contents of `config/app.php` from the **fresh installation** folder.
+1. Download the updated **`app.php`** file from [Google Drive](https://drive.google.com/file/d/1aVOeEk8H8-M9bY-jZLoOFLhC5RXMWOaE/view?usp=drive_link).
+2. Replace the existing **`config/app.php`** on your hosted server with the downloaded file.
 
 #### Step 5 — Proceed with the 3.0.0 Update
 
