@@ -10,16 +10,47 @@ Welcome to the eClassify ChangeLog! This section documents all the important cha
 
 | Product Version | Flutter Version | Kotlin Version | AGP Version | distributionUrl (Gradle) | JDK Version |
 |----------------|----------------|---------------|-------------|--------------------------|-------------|
+| 3.2.0         | 3.47.5         | 2.3.21        | 8.11.1      | 9.5.1                    | 22          |
 | 3.1.0         | 3.44.5         | 2.3.21        | 8.11.1      | 9.5.1                    | 22          |
 | 3.0.0          | 3.44.5         | 2.3.21        | 8.11.1      | 9.5.1                    | 22          |
 | 2.14.0         | 3.44.5         | 2.3.21        | 8.11.1      | 9.5.1                    | 22          |
 | 2.13.0         | 3.44.0         | 2.3.21        | 8.11.1      | 9.5.1                    | 22          |
-| 2.12.0         | 3.41.8         | 2.3.0         | 8.9.1       | 8.11.1                   | 22          |
 
 ## Version History
 
 <details open>
+<summary>Version 3.2.0 (Updated on 28 October 2026)</summary>
+
+#### Add-ons (purchased separately)
+
+- **Multi-Module:** Run multiple marketplaces from one setup, each with its own module-wise settings.
+
+#### New Features
+
+- New pricing modes: Fixed, Range, Negotiable, Price on Request and Free.
+- Global search.
+- All Categories page. (Web)
+- Keyword search in filters, with bottom-sheet filters on mobile. (Web)
+- Redesigned ad details page. (App)
+
+#### Updates
+
+- Flutter App Compatibility with Flutter SDK version 3.47.5.
+- Recommended PHP version 8.3 or higher.
+
+#### Bug Fixes
+
+- Bug fixes and improvements.
+
+</details>
+
+<details>
 <summary>Version 3.1.0 (Updated on 17 September 2026)</summary>
+
+#### Add-ons (purchased separately)
+
+- **Cashfree Payment Gateway**
+- **PayU India Payment Gateway**
 
 #### New Features
 
@@ -48,11 +79,6 @@ Welcome to the eClassify ChangeLog! This section documents all the important cha
 #### Bug Fixes
 
 - Bug fixes and improvements.
-
-#### Add-ons (purchased separately)
-
-- Cashfree payment gateway
-- PayU India payment gateway
 
 </details>
 
